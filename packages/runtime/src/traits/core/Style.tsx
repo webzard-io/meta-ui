@@ -31,7 +31,7 @@ export default implementRuntimeTrait({
       }
       const cssPropertiesStr = convertCssObjToText(cssProperties || {});
       // add a ';' between css texts, in case user forgets to add ';' in the end
-      result[styleSlot] = `&&& {${result[styleSlot]};${style};${cssPropertiesStr}}`;
+      result[styleSlot] = `.App &&& {${result[styleSlot]};${style};${cssPropertiesStr}}`;
       return result;
     }, {} as Record<string, string>);
     return {
