@@ -1,6 +1,6 @@
 {
   "name": "@sunmao-ui/editor-sdk",
-  "version": "0.11.1",
+  "version": "0.11.2",
   "description": "The SDK for SunMao Editor",
   "author": "sunmao-ui developers",
   "homepage": "https://github.com/smartxworks/sunmao-ui#readme",
@@ -30,7 +30,7 @@
     "@emotion/css": "^11.7.1",
     "@sinclair/typebox": "^0.21.2",
     "@sunmao-ui/core": "^0.11.1",
-    "@sunmao-ui/runtime": "^0.11.1",
+    "@sunmao-ui/runtime": "^0.11.2",
     "@sunmao-ui/shared": "^0.11.1",
     "ajv": "^8.8.2",
     "codemirror": "^5.65.9",
