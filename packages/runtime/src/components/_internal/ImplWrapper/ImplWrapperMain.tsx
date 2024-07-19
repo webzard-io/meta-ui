@@ -172,7 +172,6 @@ export const ImplWrapperMain = React.forwardRef<HTMLDivElement, ImplWrapperProps
       <Impl
         data-sunmao-id={c.id}
         ref={ref}
-        key={c.id}
         {...omit(props, ['slotContext'])}
         {...mergedProps}
         slotsElements={slotElements}
@@ -185,7 +184,6 @@ export const ImplWrapperMain = React.forwardRef<HTMLDivElement, ImplWrapperProps
 
     return (
       <ComponentErrorBoundary
-        key={c.id}
         componentId={c.id}
         onRef={onRef}
         onRecoverFromError={onRecoverFromError}
