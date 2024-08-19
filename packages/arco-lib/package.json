@@ -1,6 +1,6 @@
 {
   "name": "@sunmao-ui/arco-lib",
-  "version": "0.11.0",
+  "version": "0.11.3-beta.0",
   "homepage": "https://github.com/smartxworks/sunmao-ui-arco-lib",
   "license": "Apache-2.0",
   "publishConfig": {
@@ -30,8 +30,8 @@
   },
   "dependencies": {
     "@arco-design/web-react": "^2.34.0",
-    "@sunmao-ui/editor-sdk": "^0.11.0",
-    "@sunmao-ui/shared": "^0.11.0",
+    "@sunmao-ui/editor-sdk": "^0.11.3-beta.0",
+    "@sunmao-ui/shared": "^0.11.3-beta.0",
     "react-resizable": "^3.0.4"
   },
   "devDependencies": {

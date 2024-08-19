@@ -1,6 +1,6 @@
 {
   "name": "@sunmao-ui/shared",
-  "version": "0.11.0",
+  "version": "0.11.3-beta.0",
   "description": "The Sunmao shared lib",
   "author": "sunmao-ui developers",
   "homepage": "https://github.com/smartxworks/sunmao-ui#readme",
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@sinclair/typebox": "^0.21.2",
-    "@sunmao-ui/core": "^0.11.0",
+    "@sunmao-ui/core": "^0.11.3-beta.0",
     "ajv": "^8.8.2"
   },
   "devDependencies": {
