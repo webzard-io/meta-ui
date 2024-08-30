@@ -1,6 +1,6 @@
 {
   "name": "@sunmao-ui/vite-plugin-fs",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "description": "The vite plugin for reading and writing the sunmao schema files through the server",
   "main": "dist/index.js",
   "types": "lib/index.d.ts",
